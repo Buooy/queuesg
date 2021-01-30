@@ -56,6 +56,4 @@ exports.handler = async function (event, context) {
     console.log(err.response)
     return { statusCode: 400 };
   }
-
-
 }
